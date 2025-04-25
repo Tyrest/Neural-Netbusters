@@ -176,3 +176,5 @@ cython_debug/
 tigramite-master
 *.npy
 *.zip
+data
+plots
