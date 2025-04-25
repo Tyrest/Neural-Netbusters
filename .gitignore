@@ -175,5 +175,4 @@ cython_debug/
 
 tigramite-master
 *.npy
-*.csv
 *.zip
