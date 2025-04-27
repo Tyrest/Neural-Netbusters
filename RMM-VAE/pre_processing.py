@@ -35,7 +35,7 @@ precip_colors = ['#F5F5F5', '#C7EAE5', '#80CDC1', '#35978F', '#01665E', '#003C30
 
 # import and pre-process z500 data
 
-z500 = cf.preprocess_dataset(filename = 'data.nosync/era5_z500_daily_250_atlantic_1940_2022.nc',
+z500 = cf.preprocess_dataset(filename = 'data/era5_z500_daily_250_atlantic_1940_2022.nc',
                               variable_name = 'z', 
                               multiplication_factor = 1/g0, 
                               geographical_filter = 'mediterranean', 
@@ -46,7 +46,7 @@ z500 = cf.preprocess_dataset(filename = 'data.nosync/era5_z500_daily_250_atlanti
 
 # import and pre-process precipitation
 
-pr = cf.preprocess_dataset(filename = 'data.nosync/era5_pr_daily_mr_1940_2022.nc',
+pr = cf.preprocess_dataset(filename = 'data/era5_pr_morocco_EW_1940_2022.nc',
                               variable_name = 'tp', 
                               multiplication_factor = 1000, 
                               geographical_filter = 'morocco', 
